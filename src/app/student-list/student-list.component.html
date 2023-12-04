@@ -1,0 +1,19 @@
+<div class="card" style="position: absolute;padding-left:100px;padding-top: 100px;">
+    <div class="row">
+        <div class="col-md-5">
+            <table style="width:200px;height:200px;border:1px solid red;padding: 10px;margin:10px;">
+                <tr style="background-color:grey;">
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Class</th>
+                </tr>
+                <tr *ngFor="let stud of students">
+                    <th>{{stud.Name}}</th>
+                    <th>{{stud.Age}}</th>
+                    <th>{{stud.Standard}}</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
